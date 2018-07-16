@@ -19,3 +19,7 @@ while True:
             toprint = "wifi:" + wifi_ssid + ":" + wifi_passwd + ":wifi"
             print toprint
             ser.write(toprint)
+
+# ---
+# run from Terminal in this way (as user allowed to use mentioned serial-port):
+# $ python run0.py
