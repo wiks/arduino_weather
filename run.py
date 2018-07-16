@@ -22,4 +22,4 @@ while True:
 
 # ---
 # run from Terminal in this way (as user allowed to use mentioned serial-port):
-# $ python run0.py
+# $ python run.py
