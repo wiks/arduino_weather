@@ -617,6 +617,8 @@ void loop() {
   connect_weather_server();
   int lp_semicolon = get_request_weather();
   if (lp_semicolon > 1) {
+    ss_now_city2 = "";
+    ss_forecast = "";
     int prev_pos = 0;
     for(int i=0;i<15;i++) {
       if(colon_divided_fields[i] > 0) {
@@ -655,5 +657,3 @@ void loop() {
     show_it("error connection...");
   }
 }
-
-
